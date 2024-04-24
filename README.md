@@ -4,6 +4,9 @@
 This is a fork of the tmux-spotify plugin from xamut that used *dbus* instead of applescript for compatibility with linux.
 Check the original source code and thanks for the inspiration on [xamut's GitHub repo](https://github.com/xamut/tmux-spotify)
 This fork is located at [chrisgzlez/tmux-spotify-linux](https://github.com/chrisgzlez/tmux-spotify-linux)
+<p align="center">
+  <img src="https://github.com/chrisgzlez/tmux-spotif-linuxy/raw/main/media/fullscreen_display.gif" alt="fullscreen-spotify-menu-display"  width=600 height=242>
+</p>
 
 ## Installation
 ### Requirements
