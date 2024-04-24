@@ -16,7 +16,7 @@ This fork is located at [chrisgzlez/tmux-spotify-linux](https://github.com/chris
 
 ### With Tmux Plugin Manager
 Add the plugin in `.tmux.conf`:
-```
+```bash
 set -g @plugin 'chrisgzlez/tmux-spotify-linux'
 ```
 Press `prefix + I` to fetch the plugin and source it. Done.
@@ -24,7 +24,7 @@ Press `prefix + I` to fetch the plugin and source it. Done.
 ### Manual Installation
 Clone the repo somewhere. Add `run-shell` in the end of `.tmux.conf`:
 
-```
+```javascript
 run-shell PATH_TO_REPO/tmux-spotify-linux.tmux
 ```
 NOTE: this line should be placed at the end of the configuration file.
@@ -38,14 +38,14 @@ Press tmux `prefix + m` and you will see the following menu:
 
 > Note: If Spotify is not yet openend it will only provide the option to open it
 
-```
-- Open Spotify    (o) - open/launch Spotify
-- Play/Pause      (p) - toggle play/pause
-- Previous        (b) - play the current track from the beggining or play the previous track
-- Next            (n) - play the next track
-- Turn on repeat  (r) - Toggle Repeating Mode: None - Playlist - Track
-- Turn on shuffle (s) - Toggle Shuffle Mode on/off
-- Close menu      (q) - close menu
+```javascript
+- Open Spotify    (o) - Open/Launch Spotify
+- Play/Pause      (p) - Toggle Play/Pause
+- Previous        (b) - Play The Current Track From The Beggining Or Play The Previous Track
+- Next            (n) - Play The Next Track
+- Toggle Repeat   (r) - Toggle Repeating Mode: None - Playlist - Track
+- Toggle shuffle  (s) - Toggle Shuffle Mode On/Off
+- Close Menu      (q) - Close Menu
 ```
 
 ## License
