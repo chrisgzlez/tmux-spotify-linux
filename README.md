@@ -7,7 +7,8 @@ This fork is located at [chrisgzlez/tmux-spotify-linux](https://github.com/chris
 
 ## Installation
 ### Requirements
-- Linux distro that supports DBus and has dbus and dbus-send cli utilities installed (every major Linux Distros)
+- Spotify
+- Linux distro that supports DBus and has dbus-send cli utilities installed (every major Linux Distros)
 - tmux >= 3.0
 
 ### With Tmux Plugin Manager
